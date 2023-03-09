@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+  }
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+  }
+h1 {
+    font-size:xx-large;
+    color: darkblue;
+    border: 5px darkblue double;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: gold;
+}
+h3 {
+    font-size: larger;
+    color: gold;
+    border: 5px gold solid;
+    border-radius: 5px;
+    padding: 25px;
+    background-color: darkblue;
+}
+
+ul {
+    list-style-type: none;
+    color: darkblue;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    h1 {
+     width: 200px;
+    }
+  }
