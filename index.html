@@ -9,19 +9,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-    <script src="funciones.js"></script>
-
-
+    <script src="JS/funciones.js"></script>
 </head>
+
 <body>
     <div align="center">
-        <img src="Riquelme.JPG" class="img-fluid" alt="Foto de perfil" style="width: 20%;" >         
+        <img id='foto' src="Riquelme.JPG" class="img-fluid" alt="Foto de perfil" style="width: 15%;" onmouseover="cambiarTamanioImagen(this,'20%')" onmouseout="cambiarTamanioImagen(this,'15%')" >
     </div>
 
     <h1 id="JRR">Juan Román Riquelme</h1>
 
     
     <h2 id="subtitulos">Dirigente de fútbol profesional</h2>
+
     <nav>
         <a href="#Contacto">
             Contacto y redes
@@ -37,7 +37,8 @@
     <ul>
         <li>email: jrr10@gmail.com</li>
         <li>celular: 10000107</li>
-        <li>ig: https://www.instagram.com/todosobreroman10/</li>       
+        <li>ig: https://www.instagram.com/todosobreroman10/</li>
+        <button onclick="abrirVentana()">Mejores jugadas</button>
     </ul>
     <h3 id="Formacion"> Formación</h3>
     <ul>
